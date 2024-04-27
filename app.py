@@ -14,6 +14,7 @@ from code.helper import prepare_symptoms_array
 import seaborn as sns
 import joblib
 
+
 # loading the models
 diabetes_model = joblib.load("models/diabetes_model.sav")
 heart_model = joblib.load("models/heart_disease_model.sav")
